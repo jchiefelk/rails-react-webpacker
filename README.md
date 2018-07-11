@@ -1,11 +1,24 @@
-<h1>Rails-React</h1>
+# README
 
-<p>Sample Ruby on Rails appication with Front End built with React.  To install dependencies run</p>
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-<pre>
-bundle install
-npm install
-webpack
-rails run server
-open http://localhost:8000
-</pre>
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
