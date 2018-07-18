@@ -6,4 +6,27 @@
 //
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
-console.log('test')
+/**
+import react, {Component} from 'react';
+import ReactDOM from 'react-dom';
+
+class App extends Component {
+	render(){
+
+		return(
+		<div style={{backgroundColor: 'red'}}>
+			<h1>
+				test test
+			</h1>
+		</div>
+			);
+	}
+}
+
+import { BrowserRouter } from 'react-router-dom';
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+    ,document.getElementById('root'));
+ ***/
