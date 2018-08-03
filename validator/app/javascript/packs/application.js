@@ -1,3 +1,4 @@
+// Path: app/javascript/packs/application.js
 /* eslint no-console:0 */
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in
@@ -6,27 +7,6 @@
 //
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
-/**
-import react, {Component} from 'react';
-import ReactDOM from 'react-dom';
 
-class App extends Component {
-	render(){
-
-		return(
-		<div style={{backgroundColor: 'red'}}>
-			<h1>
-				test test
-			</h1>
-		</div>
-			);
-	}
-}
-
-import { BrowserRouter } from 'react-router-dom';
-ReactDOM.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
-    ,document.getElementById('root'));
- ***/
+console.log('Hello World from Webpacker')
+// Support component names relative to this directory:

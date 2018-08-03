@@ -6,21 +6,20 @@ import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 import { BrowserRouter } from 'react-router-dom';
+import App from './app';
 
 
-class App extends Component {
-	render(){
-		return(
-  			<div>Hello React!</div>
-		);
-	}
-}
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
-
+  const node = document.getElementById('root');
+  // console.log(node);
+  // console.log(node.getAttribute('data'))
+  // const data = JSON.parse(node.getAttribute('data')) 
   ReactDOM.render(
     <BrowserRouter>
-        <App />
+        <App data={node.getAttribute('data')}/>
     </BrowserRouter>,
     document.getElementById('root'));
 })
